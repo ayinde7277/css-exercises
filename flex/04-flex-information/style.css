@@ -6,6 +6,21 @@ img {
   width: 100px;
   height: 100px;
 }
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.article-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.article{
+  max-width: 200px;
+  text-align: center;
+}
 
 .title {
   font-size: 36px;
